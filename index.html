@@ -47,12 +47,11 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll">Home</a></li>
-			<li> <a href="#about" class="smoothScroll"> About</a></li>
-			<li> <a href="#services" class="smoothScroll"> Services</a></li>
+            <li><a href="#home" class="smoothScroll"> Home</a></li>
+            <li><a href="#features" class="smoothScroll"> Features</a></li>
+            <li><a href="#mission" class="smoothScroll"> Mission</a></li>
+			<li> <a href="#story" class="smoothScroll"> Story</a></li>
 			<li> <a href="#team" class="smoothScroll"> Team</a></li>
-			<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
-			<li> <a href="#blog" class="smoothScroll"> Blog</a></li>
 			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
         </div><!--/.nav-collapse -->
       </div>
@@ -70,7 +69,7 @@
 	    </div><!-- /headerwrap -->
 
 		<!-- ==== GREYWRAP ==== -->
-		<div id="greywrap">
+		<div id="greywrap" id="features" name="features">
 			<div class="row">
 				<div class="col-lg-4 callout">
 					<span class="icon icon-stack"></span>
@@ -93,7 +92,7 @@
 		</div><!-- greywrap -->
 		
 		<!-- ==== SECTION DIVIDER2 -->
-		<div class="section-divider textdivider divider2" style="margin-top: 0px;">
+		<div class="section-divider textdivider divider2" style="margin-top: 0px;" name="mission">
 			<div class="container">
 				<h1>MISSION</h1>
 				<hr>
@@ -102,10 +101,10 @@
 		</div><!-- section -->
 
 		<!-- ==== ABOUT ==== -->
-		<div class="container" id="about" name="about">
+		<div class="container" id="story" name="story">
 			<div class="row white">
 			<br>
-				<h1 class="centered">HISTORY STUFF</h1>
+				<h1 class="centered">OUR STORY</h1>
 				<hr>
 				
 				<div class="col-lg-6">
@@ -142,11 +141,13 @@
 					<img class="img img-circle" src="assets/img/team/Optimized-HackTheNorth-67.jpg" height="120px" width="120px" alt="">
 					<br>
 					<h4><b>Aditya Sridhar</b></h4>
-					<span>Server Developer</span>
-					<br>
-					<a href="http://www.twitter.com/AddySridhar" class="icon icon-twitter" target="blank"></a>
-					<a href="http://www.github.com/AddySridhar95" class="icon icon-github"></a>
-					<a href="#" class="icon icon-linkedin"></a>
+					<span style="font-size: 15px;">
+						<span>Server Developer</span>
+						<br>
+						<a href="http://www.addysridhar.com" class="icon icon-home" target="blank"></a>
+						<a href="http://www.twitter.com/AddySridhar" class="icon icon-twitter" target="blank"></a>
+						<a href="http://www.github.com/AddySridhar95" class="icon icon-github"></a>
+					</span>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				</div><!-- col-lg-3 -->
 				
@@ -192,31 +193,34 @@
 				<hr>
 				<br>
 				<br>
-				
-				<div class="col-lg-6 centered">
+				<div class="col-lg-3" style="text-align: center;">
+
+				</div><!-- col -->		
+				<div class="col-lg-6" style="text-align: center;">
 					<h3>Newsletter</h3>
 					<p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
-					<p>
-						<form class="form-horizontal" role="form">
-						  <div class="form-group">
-						    <label for="inputEmail1" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <label for="text1" class="col-lg-4 control-label"></label>
-						    <div class="col-lg-10">
-						      <input type="text" class="form-control" id="text1" placeholder="Your Name">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						    <div class="col-lg-10">
-						      <button type="submit" class="btn btn-success">Sign in</button>
-						    </div>
-						  </div>
-					   </form><!-- form -->
-					</p>
+					<form class="form-horizontal" role="form" style="display:inline-block;">
+					  <div class="form-group">
+					    <label for="inputEmail1" class="col-lg-4 control-label"></label>
+					    <div class="col-lg-10">
+					      <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <label for="text1" class="col-lg-4 control-label"></label>
+					    <div class="col-lg-10">
+					      <input type="text" class="form-control" id="text1" placeholder="Your Name">
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-lg-10">
+					      <button type="submit" class="btn btn-success">Sign in</button>
+					    </div>
+					  </div>
+				   </form><!-- form -->
+				</div><!-- col -->
+
+				<div class="col-lg-3" style="text-align: center;">
 				</div><!-- col -->
 
 			</div><!-- row -->
